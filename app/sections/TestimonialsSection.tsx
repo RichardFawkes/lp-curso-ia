@@ -229,7 +229,7 @@ const TestimonialsSection: React.FC = () => {
                         fontStyle: 'italic',
                       }}
                     >
-                      "{testimonials[activeIndex].text}"
+                      &ldquo;{testimonials[activeIndex].text}&rdquo;
                     </Typography>
 
                     {/* Author Info */}
