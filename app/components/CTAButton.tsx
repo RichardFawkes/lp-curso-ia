@@ -4,7 +4,7 @@ import React from 'react';
 import { Button, ButtonProps } from '@mui/material';
 import { motion } from 'framer-motion';
 
-interface CTAButtonProps extends ButtonProps {
+interface CTAButtonProps extends Omit<ButtonProps, 'variant'> {
   children: React.ReactNode;
   variant?: 'primary' | 'secondary';
 }
